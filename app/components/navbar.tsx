@@ -16,22 +16,22 @@ export default function Navbar() {
           Kristina ...
         </Link>
         <div className="hidden md:flex space-x-6">
-          <Link href="/" className="hover:text-green-500">
+          <Link href="/" prefetch className="hover:text-green-500">
             Home
           </Link>
-          <Link href="/about" className="hover:text-green-500">
+          <Link href="/about" prefetch className="hover:text-green-500">
             About
           </Link>
-          <Link href="/skills" className="hover:text-green-500">
+          <Link href="/skills" prefetch className="hover:text-green-500">
             Skills
           </Link>
-          <Link href="/projects" className="hover:text-green-500">
+          <Link href="/projects" prefetch className="hover:text-green-500">
             Projects
           </Link>
-          <Link href="/contact" className="hover:text-green-500">
+          <Link href="/contact" prefetch className="hover:text-green-500">
             Contact
           </Link>
-          <Link href="/resume" className="hover:text-green-500">
+          <Link href="/resume" prefetch className="hover:text-green-500">
             Resume
           </Link>
         </div>

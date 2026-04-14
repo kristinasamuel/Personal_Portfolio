@@ -21,8 +21,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <Image
           src={project.image}
           alt={project.name}
-          layout="fill"
-          objectFit="cover"
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          quality={75}
+          loading="lazy"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
+          className="object-cover"
         />
       </div>
       <div className="p-6">

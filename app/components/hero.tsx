@@ -10,13 +10,13 @@ export default function Hero() {
       <div className="container mx-auto flex px-5 md:flex-row flex-col items-center justify-center min-h-screen">
         <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-500">
-            Hi, I'm Kristina
+            Hi, I&apos;m Kristina
           </h1>
           <div className="sm:text-3xl text-2xl mb-4 text-green-500">
             <Typewriter
               options={{
                 strings: [
-                  "Frontend Website Developer",
+                  "Full Stack Web Developer",
                   "Agentic AI Developer",
                   "AI Automation ",
                   "n8n Workflow ",
@@ -78,8 +78,11 @@ export default function Hero() {
           <Image
             alt="Kristina Samuel"
             src="/images/G Image.png"
-            width={320}
-            height={320}
+            width={330}
+            height={330}
+            priority={true}
+            quality={85}
+            sizes="(max-width: 768px) 280px, 330px"
             className="rounded-lg object-cover max-w-[280px] md:max-w-[330px]"
           />
         </div>
