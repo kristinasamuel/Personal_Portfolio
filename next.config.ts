@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
   },
   compress: true,
   poweredByHeader: false,
-  turbopack: {},
 };
 
 export default nextConfig;
