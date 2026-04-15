@@ -1,19 +1,10 @@
 import Link from "next/link";
 import { IoMail, IoLocation, IoCall, IoLogoLinkedin } from "react-icons/io5";
-import { FaDownload } from "react-icons/fa";
 
 export default function Resume() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 py-12 px-4">
       <div className="max-w-4xl mx-auto">
-        {/* Header with Download Button */}
-        <div className="flex justify-end mb-6">
-          <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-colors shadow-lg">
-            <FaDownload />
-            Download Resume
-          </button>
-        </div>
-
         {/* Main Resume Card */}
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden border border-gray-800">
           {/* Header Section */}

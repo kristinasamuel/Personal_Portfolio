@@ -2,8 +2,8 @@
 const skills = {
     "Frontend": ["Next.js", "Tailwind CSS", "ShadCN UI", "HTML5", "CSS3"],
     "Backend / APIs": ["FastAPI", "Firebase", "Sanity"],
-    "AI & Automation": ["Agentic AI SDK", "Gemini CLI", "MCP", "n8n", "Python"],
-    "Tools & Deployment": ["UV", "GitHub","Vercel"],
+    "AI & Automation": ["Agentic AI SDK", "Gemini CLI", "Claude AI", "Qwen AI", "MCP", "n8n", "Python"],
+    "Tools & Deployment": ["UV", "GitHub", "Vercel", "Docker"],
     "Frameworks": ["Streamlit", "Chainlit"]
   };
 

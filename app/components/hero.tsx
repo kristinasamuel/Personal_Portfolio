@@ -16,10 +16,8 @@ export default function Hero() {
             <Typewriter
               options={{
                 strings: [
-                  "Full Stack Web Developer",
+                  "Full Stack AI Developer",
                   "Agentic AI Developer",
-                  "AI Automation ",
-                  "n8n Workflow ",
                 ],
                 autoStart: true,
                 loop: true,
